@@ -5,7 +5,7 @@ class Follow extends Component {
       <div className="container">
         <div className="button-container">
           <a
-            className="btn btn-default btn-round btn-lg btn-icon btn-default:hover"
+            className=" cc-facebook btn btn-default btn-round btn-lg btn-icon btn-default:hover"
             href="https://www.facebook.com/vijay.sai.927543"
             rel="tooltip"
             target="_blank"
