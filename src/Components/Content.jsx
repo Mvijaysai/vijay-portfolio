@@ -26,7 +26,7 @@ class Content extends Component {
                   style={{ backgroundImage: "url('images/cc-bg-1.jpg')" }}
                 ></div>
                 <Profile />
-                <div className="section">
+                <div className="section" id="follow">
                   <Follow />
                 </div>
               </div>
