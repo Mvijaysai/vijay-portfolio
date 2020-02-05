@@ -23,7 +23,7 @@ class Experience extends Component {
                       data-aos-duration="500"
                     >
                       <div className="card-body cc-experience-header">
-                        <p>November 2019 - February 2019</p>
+                        <p>November 2019 - February 2020</p>
                         <div className="h5">Intern</div>
                       </div>
                     </div>
