@@ -9,10 +9,7 @@ class About extends Component {
               <div className="col-lg-6 col-md-12">
                 <div className="card-body">
                   <div className="h4 mt-0 title">About</div>
-                  <p>
-                    Hello! I am Vijaysai Madugula. Web Developer, Android
-                    Developer.
-                  </p>
+                  <p>Hello! I am Vijaysai Madugula. Web Developer.</p>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12">

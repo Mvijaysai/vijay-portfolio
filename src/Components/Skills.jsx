@@ -72,7 +72,7 @@ class Skills extends Component {
               </div>
               <div className="col-md-6">
                 <div className="progress-container progress-primary">
-                  <span className="progress-badge">React Native</span>
+                  <span className="progress-badge">Node JS</span>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-primary"
