@@ -43,7 +43,7 @@ class About extends Component {
                   </div>
                   <div className="row mt-3">
                     <div className="col-sm-4">
-                      <strong className="text-uppercase">Language:</strong>
+                      <strong className="text-uppercase">Languages:</strong>
                     </div>
                     <div className="col-sm-8">English,Telugu,Hindi</div>
                   </div>

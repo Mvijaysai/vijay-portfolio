@@ -64,9 +64,9 @@ class Skills extends Component {
                       aria-valuenow="60"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      style={{ width: "70%" }}
+                      style={{ width: "80%" }}
                     ></div>
-                    <span className="progress-value">70%</span>
+                    <span className="progress-value">80%</span>
                   </div>
                 </div>
               </div>

@@ -29,7 +29,7 @@ class Profile extends Component {
           </a>
           <a
             className="btn btn-primary"
-            href="https://drive.google.com/file/d/1Jw3l3Fvwu_2TzrzjI5-LINF8r_eajC5L/view?usp=sharing"
+            href="https://docs.google.com/document/d/1qjwZjIx1HNB2dJKx9kSIb0wAQy-jJ7ErVKrgOqUlVfQ/edit?usp=sharing"
             data-aos="zoom-in"
             data-aos-anchor="data-aos-anchor"
             target="_blank"

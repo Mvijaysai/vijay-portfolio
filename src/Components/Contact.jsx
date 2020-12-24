@@ -20,8 +20,9 @@ class Contact extends Component {
                             <strong>Address </strong>
                           </p>
                           <p className="pb-2">
-                            1-23,Main
-                            street,Malakam,Ponduru,Srikakulkam,AndhraPradesh,532168
+                            1-23,Main Street,
+                            Malakam,Ponduru,Srikakulam,
+                            AndhraPradesh,532168
                           </p>
                           <p className="mb-0">
                             <strong>Phone</strong>

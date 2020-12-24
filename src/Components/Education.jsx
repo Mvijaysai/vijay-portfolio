@@ -1,97 +1,39 @@
-import React, { Component } from "react";
-class Education extends Component {
-  render() {
+import React from 'react';
+import data from '../staticData'
+
+const Edu = ({edu}) => {
     return (
-      <React.Fragment>
-        <div className="section">
-          <div className="container cc-education">
-            <div className="h4 text-center mb-4 title">Education</div>
-            <div className="card">
-              <div className="row">
-                <div
-                  className="col-md-3 bg-primary"
-                  data-aos="fade-right"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div className="card-body cc-education-header">
-                    <p>2015-2019</p>
-                    <div className="h5">Bachelor of Technology</div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-9"
-                  data-aos="fade-left"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div className="card-body">
-                    <div className="h5">
-                      Electronics and Communication Engineering
+        <div className="card">
+            <div className="row">
+                <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
+                    <div className="card-body cc-education-header">
+                        <div className="h5">{edu.title}</div>
+                        <p>{edu.fromTo}</p>
                     </div>
-                    <p className="category">
-                      SRI SIVANI COLLEGE OF ENGINEERING
-                    </p>
-                  </div>
                 </div>
-              </div>
+                <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
+                    <div className="card-body">
+                        <div className="h5">{edu.qualification}</div>
+                        <p className="category">{edu.college}</p>
+                        <p>{edu.description}</p>
+                    </div>
+                </div>
             </div>
-            <div className="card">
-              <div className="row">
-                <div
-                  className="col-md-3 bg-primary"
-                  data-aos="fade-right"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div className="card-body cc-education-header">
-                    <p>2013 - 2015</p>
-                    <div className="h5">Intermediate</div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-9"
-                  data-aos="fade-left"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div className="card-body">
-                    <div className="h5">Intermediate M.P.C</div>
-                    <p className="category">Sri Chaitanya Junior College</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="card">
-              <div className="row">
-                <div
-                  className="col-md-3 bg-primary"
-                  data-aos="fade-right"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div className="card-body cc-education-header">
-                    <p>2012 - 2013</p>
-                    <div className="h5">High School</div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-9"
-                  data-aos="fade-left"
-                  data-aos-offset="50"
-                  data-aos-duration="500"
-                >
-                  <div className="card-body">
-                    <div className="h5">School of Secondary Board</div>
-                    <p className="category">M.J.P.A.P.B.C.W.R.E.S.SCHOOL</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </React.Fragment>
-    );
-  }
+    )
 }
-export default Education;
+
+const education = () => {
+    return (
+        <div className="container cc-education">
+            <div className="h4 text-center mb-4 title">Educational Details</div>
+            {
+                data.education.map((edu, key)=> {
+                    return <Edu edu={edu} key={edu.qualification}/>
+                })
+            }
+        </div>
+    );
+}
+
+export default education;
