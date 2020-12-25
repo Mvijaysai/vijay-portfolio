@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../staticData';
+import data from './staticData';
 
 const WorkExperience = ({ data }) => {
   return (
