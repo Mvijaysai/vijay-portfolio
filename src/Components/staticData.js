@@ -3,15 +3,15 @@ const data = {
     experience: [
       {
         fromTo: "June 2020 - Present",
-        designation: "Front-end Developer",
-        companyName: "Galamela Pvt Ltd.",
-        description: "Working as a FrontEnd Developer"
+        designation: "Full Stack Developer",
+        companyName: "GalaNmela India Pvt Ltd.",
+        description: "Working as a FullStack Developer"
       },
       {
-        fromTo: "Oct 2019 - MAY 2020",
+        fromTo: "July 2019 - June 2020",
         designation: "Front-end Developer",
         companyName: "Stellentsoft Pvt. Ltd.",
-        description: "Worked from Oct-2019 to May-2020 as a FrontEnd Developer."
+        description: "Worked from July-2019 to June-2020 as a FrontEnd React JS Developer."
       },
 
     ],

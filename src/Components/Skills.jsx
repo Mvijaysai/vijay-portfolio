@@ -13,7 +13,7 @@ class Skills extends Component {
             <div className="row">
               <div className="col-md-6">
                 <div className="progress-container progress-primary">
-                  <span className="progress-badge">HTML</span>
+                  <span className="progress-badge">Material UI</span>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-primary"
@@ -45,7 +45,7 @@ class Skills extends Component {
                       aria-valuemax="100"
                       style={{ width: "75%" }}
                     ></div>
-                    <span className="progress-value">75%</span>
+                    <span className="progress-value">80%</span>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@ class Skills extends Component {
                       aria-valuemax="100"
                       style={{ width: "70%" }}
                     ></div>
-                    <span className="progress-value">70%</span>
+                    <span className="progress-value">80%</span>
                   </div>
                 </div>
               </div>
@@ -113,6 +113,82 @@ class Skills extends Component {
               <div className="col-md-6">
                 <div className="progress-container progress-primary">
                   <span className="progress-badge">React JS</span>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-primary"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style={{ width: "80%" }}
+                    ></div>
+                    <span className="progress-value">90%</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="progress-container progress-primary">
+                  <span className="progress-badge">Next JS</span>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-primary"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style={{ width: "80%" }}
+                    ></div>
+                    <span className="progress-value">90%</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="progress-container progress-primary">
+                  <span className="progress-badge">Docker </span>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-primary"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style={{ width: "80%" }}
+                    ></div>
+                    <span className="progress-value">80%</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="progress-container progress-primary">
+                  <span className="progress-badge">Google Cloud Platform </span>
+                  <div className="progress">
+                    <div
+                      className="progress-bar progress-bar-primary"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style={{ width: "80%" }}
+                    ></div>
+                    <span className="progress-value">80%</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="progress-container progress-primary">
+                  <span className="progress-badge"> CI/ CD using Terraform</span>
                   <div className="progress">
                     <div
                       className="progress-bar progress-bar-primary"
